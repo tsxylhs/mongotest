@@ -27,7 +27,7 @@ public static void main(String[] args) {
 	  insert(mongoDatabase,collection);
 	    findIterable( mongoDatabase, collection);
 	    updata(collection);
-	    delete(collection);
+	   // delete(collection);
 	    //collection.deleteOne(Filters.eq("likes",200));
 	    //删除所有符合条件的文档
 
